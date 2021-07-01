@@ -1,0 +1,174 @@
+:root {
+    --main-font: 'Roboto', sans-serif;
+    --secondary-font: 'Raleway', sans-serif ; 
+    --accent-color: #2196F3;
+}
+
+.list {
+    list-style: none;
+}
+
+.link {
+    text-decoration: none;
+}
+
+.body {
+    font-family: var(--main-font);
+}
+
+/* ========= HEADER ========== */
+.logo {
+font-family: var(--secondary-font);
+font-weight: 700;
+font-size: 26px;
+line-height: 1.20;
+letter-spacing: 0.03em;
+color: var(--accent-color);
+}
+
+.studio {
+    color:#212121;
+}
+
+.menu-link {
+font-weight: 500;
+font-size: 14px;
+line-height: 1.15;
+letter-spacing: 0.02em;
+color: #212121;
+}
+
+.menu-link:hover,
+.menu-link:focus {
+    color: var(--accent-color);
+}
+
+.menu-link.current {
+color: var(--accent-color);
+}
+
+.mail-link {
+font-weight: 500;
+font-size: 14px;
+line-height: 1.15;
+letter-spacing: 0.02em;
+color: var(--accent-color);
+}
+
+.mail-link:hover,
+.mail-link:focus {
+color: var(--accent-color); 
+}
+
+.tel-link {
+font-weight: 500;
+font-size: 14px;
+line-height: 1.15;
+letter-spacing: 0.02em;
+color: #757575;
+}
+/* ========= END HEADER ========== */
+
+/* ========= HERO ========== */
+
+
+.hero-title {
+font-weight: 900;
+font-size: 44px;
+line-height: 1.37;
+text-align: center;
+letter-spacing: 0.06em;
+text-transform: uppercase;
+/* color: #FFFFFF; */
+}
+
+.modal-btn {
+font-weight: 700;
+font-size: 16px;
+line-height: 1.88;
+cursor: pointer;
+background: var(--accent-color);
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.06em;
+color: #FFFFFF;
+}
+
+/* ========= END HERO ========== */
+
+/* ========= FEATURES ========== */
+
+.features-title {
+font-weight: 700;
+font-size: 14px;
+line-height: 1.15;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: #212121;
+}
+
+.description {
+font-weight: 400;
+font-size: 14px;
+line-height: 1.72;
+letter-spacing: 0.03em;
+color: #757575;
+}
+
+/* ========= END FEATURES ========== */
+
+/* ========= BOX ========== */
+
+.box-about-title {
+font-weight: 700;
+font-size: 36px;
+line-height: 1.17;
+text-align: center;
+letter-spacing: 0.03em;
+color: #212121;
+}
+
+/* ========= END BOX ========== */
+
+/* ========= ABOUT ========== */
+
+.about-description {
+font-weight: 500;
+font-size: 16px;
+line-height: 1.19;
+letter-spacing: 0.03em;
+color: #212121;
+}
+
+.about-description-item {
+font-weight: 400;
+font-size: 16px;
+line-height: 1.19;
+letter-spacing: 0.03em;
+color: #757575;
+}
+
+/* ========= END ABOUT ========== */
+
+/* ========= CONTACT INFORMATION ========== */
+
+
+.contact-adress-link {
+font-weight: 400;
+font-size: 14px;
+line-height: 1.72;
+letter-spacing: 0.03em;
+/* color: #FFFFFF; */
+}
+
+.contact-link {
+font-weight: 400;
+font-size: 14px;
+line-height: 1.72;
+letter-spacing: 0.03em;
+
+/* color: rgba(255, 255, 255, 0.6); */
+}
+
+/* ========= END CONTACT INFORMATION ========== */
