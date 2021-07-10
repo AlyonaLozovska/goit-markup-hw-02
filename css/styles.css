@@ -206,6 +206,42 @@ color: var(--contact-color);
 
 /* ========= PORTFOLIO-NAVIGATION ========== */
 
+:root {
+    --main-font: 'Roboto', sans-serif;
+    --secondary-font: 'Raleway', sans-serif ; 
+    --accent-color: #2196F3;
+    --meny-color: #212121;
+    --tel-link-color: #757575;
+    --title-text-color: #FFFFFF;
+    --background-color: #2F303A;
+    --contact-color: rgba(255, 255, 255, 0.6);
+}
+
+.list {
+    list-style: none;
+    padding-left: 0;
+    margin: 0;
+}
+
+.link {
+    text-decoration: none;
+    color: inherit;
+}
+
+.body {
+    font-family: var(--main-font);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin-top: 0;
+}
+
 /* ========= HEADER ========== */
 .logo {
 font-family: var(--secondary-font);
@@ -266,7 +302,18 @@ cursor: pointer;
 color: var(--meny-color);
 }
 
-
+.modal-btn-portfolio {
+font-weight: 500;
+font-size: 16px;
+line-height: 1.63;
+cursor: pointer;
+background: var(--accent-color);
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.03em;
+color: var(--title-text-color);
+}
 
 
  .rectangle {
@@ -296,6 +343,18 @@ left: 0px;
 top: 1628px;
 margin: avto;
 background: var(--background-color);
+}
+
+.studio-logo {
+color: var(--title-text-color);
+}
+
+.contact-adress-link {
+color: var(--title-text-color);
+}
+
+.contact-link {
+color: var(--contact-color);
 }
 
 /* ========= END CONTACT INFORMATION PORTFOLIO ========== */
