@@ -2,19 +2,38 @@
     --main-font: 'Roboto', sans-serif;
     --secondary-font: 'Raleway', sans-serif ; 
     --accent-color: #2196F3;
+    --meny-color: #212121;
+    --tel-link-color: #757575;
+    --title-text-color: #FFFFFF;
+    --background-color: #2F303A;
+    --contact-color: rgba(255, 255, 255, 0.6);
 }
 
 .list {
     list-style: none;
+    padding-left: 0;
+    margin: 0;
 }
 
 .link {
     text-decoration: none;
+    color: inherit;
 }
 
 .body {
     font-family: var(--main-font);
 }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin-top: 0;
+}
+
 
 /* ========= HEADER ========== */
 .logo {
@@ -27,7 +46,7 @@ color: var(--accent-color);
 }
 
 .studio {
-    color:#212121;
+    color: var(--meny-color);
 }
 
 .menu-link,
@@ -37,7 +56,7 @@ font-weight: 500;
 font-size: 14px;
 line-height: 1.15;
 letter-spacing: 0.02em;
-color: #212121;
+color: var(--meny-color);
 }
 
 .menu-link:hover,
@@ -59,21 +78,31 @@ color: var(--accent-color);
 }
 
 .tel-link {
-color: #757575;
+color: var(--tel-link-color);
 }
 /* ========= END HEADER ========== */
 
 /* ========= HERO ========== */
 
+.container-section {
+width: 1600px;
+height: 600px;
+left: 0px;
+top: 80px;
+margin: avto;
+background: var(--background-color);
+}
+
 
 .hero-title {
+font-family: var(--main-font);
 font-weight: 900;
 font-size: 44px;
 line-height: 1.37;
 text-align: center;
 letter-spacing: 0.06em;
 text-transform: uppercase;
-color: #FFFFFF;
+color: var(--title-text-color);
 }
 
 .modal-btn {
@@ -86,7 +115,7 @@ display: flex;
 align-items: center;
 text-align: center;
 letter-spacing: 0.06em;
-color: #FFFFFF;
+color: var(--title-text-color);
 }
 
 /* ========= END HERO ========== */
@@ -94,22 +123,24 @@ color: #FFFFFF;
 /* ========= FEATURES ========== */
 
 .features-title {
+font-family: var(--main-font);
 font-weight: 700;
 font-size: 14px;
 line-height: 1.15;
 letter-spacing: 0.03em;
 text-transform: uppercase;
-color: #212121;
+color: var(--meny-color);
 }
 
 .description,
 .contact-adress-link,
 .contact-link {
+font-family: var(--main-font);
 font-weight: 400;
 font-size: 14px;
 line-height: 1.72;
 letter-spacing: 0.03em;
-color: #757575;
+color: var(--tel-link-color);
 }
 
 /* ========= END FEATURES ========== */
@@ -117,12 +148,13 @@ color: #757575;
 /* ========= BOX ========== */
 
 .box-about-title {
+font-family: var(--main-font);
 font-weight: 700;
 font-size: 36px;
 line-height: 1.17;
 text-align: center;
 letter-spacing: 0.03em;
-color: #212121;
+color: var(--meny-color);
 }
 
 /* ========= END BOX ========== */
@@ -131,29 +163,141 @@ color: #212121;
 
 .about-description,
 .about-description-item {
+font-family: var(--main-font);
 font-weight: 500;
 font-size: 16px;
 line-height: 1.19;
 letter-spacing: 0.03em;
-color: #212121;
+color: var(--meny-color);
 }
 
 .about-description-item {
 font-weight: 400;
-color: #757575;
+color: var(--tel-link-color);
 }
 
 /* ========= END ABOUT ========== */
 
 /* ========= CONTACT INFORMATION ========== */
 
+.container {
+width: 1600px;
+height: 252px;
+left: 0px;
+top: 2097px;
+margin: avto;
+background: var(--background-color);
+}
+
+.studio-logo {
+color: var(--title-text-color);
+}
 
 .contact-adress-link {
-color: #FFFFFF;
+color: var(--title-text-color);
 }
 
 .contact-link {
-color: rgba(255, 255, 255, 0.6);
+color: var(--contact-color);
 }
 
 /* ========= END CONTACT INFORMATION ========== */
+
+
+/* ========= PORTFOLIO-NAVIGATION ========== */
+
+/* ========= HEADER ========== */
+.logo {
+font-family: var(--secondary-font);
+font-weight: 700;
+font-size: 26px;
+line-height: 1.20;
+letter-spacing: 0.03em;
+color: var(--accent-color);
+}
+
+.studio {
+    color: var(--meny-color);
+}
+
+.menu-link,
+.mail-link,
+.tel-link {
+font-weight: 500;
+font-size: 14px;
+line-height: 1.15;
+letter-spacing: 0.02em;
+color: var(--meny-color);
+}
+
+.menu-link:hover,
+.menu-link:focus {
+    color: var(--accent-color);
+}
+
+.menu-link.current {
+color: var(--accent-color);
+}
+
+.mail-link {
+color: var(--tel-link-color);
+}
+
+.mail-link:hover,
+.mail-link:focus {
+color: var(--accent-color); 
+}
+
+.tel-link {
+color: var(--tel-link-color);
+}
+/* ========= END HEADER ========== */
+
+/* ========= FILTERS ========== */
+
+
+.filters-title {
+font-family: var(--main-font);
+font-weight: 500;
+font-size: 16px;
+line-height: 1.63;
+letter-spacing: 0.03em;
+cursor: pointer;
+color: var(--meny-color);
+}
+
+
+
+
+ .rectangle {
+position: absolute;
+width: 73px;
+height: 38px;
+left: 495px;
+top: 174px;
+background: var(--accent-color);
+color: var(--title-text-color);
+}
+
+.filters-title:hover,
+.filters-title:focus {
+    color: var(--accent-color);
+}
+
+/* ========= END FILTERS ========== */
+
+/* ========= CONTACT INFORMATION PORTFOLIO ========== */
+
+
+.container-portfolio {
+width: 1600px;
+height: 252px;
+left: 0px;
+top: 1628px;
+margin: avto;
+background: var(--background-color);
+}
+
+/* ========= END CONTACT INFORMATION PORTFOLIO ========== */
+
+/* ========= END PORTFOLIO-NAVIGATION ========== */
