@@ -302,6 +302,7 @@ cursor: pointer;
 color: var(--meny-color);
 }
 
+
 .modal-btn-portfolio {
 font-weight: 500;
 font-size: 16px;
@@ -313,6 +314,7 @@ align-items: center;
 text-align: center;
 letter-spacing: 0.03em;
 color: var(--title-text-color);
+border: none;
 }
 
 
@@ -328,10 +330,33 @@ color: var(--title-text-color);
 
 .filters-title:hover,
 .filters-title:focus {
-    color: var(--accent-color);
+    color: var(--title-text-color);
+    background-color: var(--accent-color);
 }
 
 /* ========= END FILTERS ========== */
+
+/* ========= PROJECT ========== */
+
+.project-description {
+font-family: var(--main-font);
+font-weight: 700;
+font-size: 18px;
+line-height: 2;
+letter-spacing: 0.06em;
+color: var(--meny-color);
+}
+
+.project-description-item {
+font-family: var(--main-font);
+font-weight: 400;
+font-size: 16px;
+line-height: 1.88;
+letter-spacing: 0.03em;
+color: var(--tel-link-color);
+}
+
+/* ========= END PROJECT ========== */
 
 /* ========= CONTACT INFORMATION PORTFOLIO ========== */
 
