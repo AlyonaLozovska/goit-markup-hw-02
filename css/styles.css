@@ -57,7 +57,15 @@ font-weight: 500;
 font-size: 14px;
 line-height: 1.15;
 letter-spacing: 0.02em;
-color: var(--meny-color);
+}
+
+.menu-link {
+color: var(--meny-color);   
+}
+
+.mail-link,
+.tel-link {
+ color: var(--tel-link-color);   
 }
 
 .menu-link:hover,
@@ -69,18 +77,21 @@ color: var(--meny-color);
 color: var(--accent-color);
 }
 
-.mail-link {
-color: var(--accent-color);
-}
+
 
 .mail-link:hover,
 .mail-link:focus {
 color: var(--accent-color); 
 }
 
-.tel-link {
-color: var(--tel-link-color);
+
+
+.tel-link:hover,
+.tel-link:focus {
+color: var(--accent-color);
 }
+
+
 /* ========= END HEADER ========== */
 
 /* ========= HERO ========== */
@@ -245,7 +256,8 @@ color: var(--meny-color);
 color: var(--accent-color);
 }
 
-.mail-link {
+.mail-link,
+.tel-link {
 color: var(--tel-link-color);
 }
 
@@ -254,9 +266,12 @@ color: var(--tel-link-color);
 color: var(--accent-color); 
 }
 
-.tel-link {
-color: var(--tel-link-color);
+.tel-link:hover,
+.tel-link:focus {
+color: var(--accent-color);
 }
+
+
 /* ========= END HEADER ========== */
 
 /* ========= FILTERS ========== */
